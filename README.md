@@ -16,6 +16,9 @@ LV를 사람의 성별로 간주할 경우, 이 사람이 남자인지 여자인
 여기서는, MNIST 필기체 data이므로 필기획의 기울기, image를 나타내는 lable등이 적절한 LV라고 될 수 있다.   
    
 ## 2. GAN   
+   
+![GAN](https://user-images.githubusercontent.com/59756209/74512265-43642700-4f4b-11ea-9d92-786007e525ec.PNG)   
+      
 GAN은 generator와 discriminator라는 2가지 부분으로 구성되어 있다.   
 GAN의 개념을 직관적으로 이해하기 위해서 많이 사용하는 예시인 경찰(discriminator)와 위조지폐 생성범(generator)이다.   
 위조 지폐 생성범(generator)는 경찰(discriminator)를 속이기 위해서 최대한 진짜 지폐와 구분이 되지않는 위조지폐를 생성하려고 노력한다.   
