@@ -28,3 +28,8 @@ GAN의 개념을 직관적으로 이해하기 위해서 많이 사용하는 예�
 이러한 discriminator와 generator 사이의 minimax game으로 정의한다.   
 둘 사이의 점수를 두고 generator(G)는 점수를 최소로, dicriminator(D)는 점수를 최대로 하는 게임이다.   
 일반적으로 경쟁을 하는 점수는 다음과 같이 표현한다.  
+   
+![minmax](https://user-images.githubusercontent.com/59756209/74515902-cd63be00-4f52-11ea-8766-3eb356c49bf8.PNG)   
+   
+D는 data를 받았을 때 D(x)를 1로 generator가 VL로부터 생성한 가짜 data G(z)를 입력받았을 경우 D(G(z))를 0으로 예측하고자 합니다.   
+이에 반해 G는 생성한 가짜 data G(z)를 D가 입력 받는 경우(=D(G(z))), D가 이를 1로 예측하도록 하는 것을 목표로 학습한다.   
